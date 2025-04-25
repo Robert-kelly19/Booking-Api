@@ -7,6 +7,9 @@
 import app  from '../app.js';
 import deb  from 'debug';
 import http from 'http';
+import logger from '../utils/logger.js';
+import {connectToDb, initialzeDbSchema} from "../config/db.js"
+
 
 /**
  * Get port from environment and store in Express.
@@ -49,6 +52,37 @@ function normalizePort(val) {
   return false;
 }
 
+const signals = {
+  'SIGHUP': 1,
+  'SIGINT': 2,
+  'SIGTERM': 15
+}
+
+let shuttingDown = false
+
+const shutDown = (signal, values) => {
+  if(shuttingDown){
+    logger.info(`shutting down in progress , Recieved ${signal} again`)
+    return
+  }
+  shuttingDown = true
+  logger.info(`Recieved ${signal}, shutting down gracefuuly`)
+  server.close((err) => {
+    if(err) {
+      logger.error('error while closing server', err)
+      process.exit(1)
+    } else {
+      logger.info ('server closed, exiting the process')
+      process.exit(0)
+    }
+  })
+}
+object.keys(signals).forEach((signal) => {
+  process.on(signal, () => {
+    logger.info(`recieved ${signal}`)
+    shutDown(signal, signals[signal])
+  })
+});
 /**
  * Event listener for HTTP server "error" event.
  */
@@ -88,3 +122,20 @@ function onListening() {
     : 'port ' + addr.port;
   debug('Listening on ' + bind);
 }
+
+const startServer = async () => {
+  try {
+    logger.info(`Attempting to Start server on port ${port}`)
+    await connectToDb()
+    await initialzeDbSchema()
+    logger.info(`Starting server on port ${port}`)
+    server.listen(port);
+    server.on('error', onError);
+    server.on('listening', onListening);
+  } catch (error) {
+    logger.error('Failed during server startup process: ', error)
+    process.exit(1)
+  }
+}
+
+startServer()

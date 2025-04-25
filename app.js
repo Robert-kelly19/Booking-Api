@@ -1,7 +1,7 @@
 import express from 'express';
 import path, { dirname } from 'path';
 import cookieParser from 'cookie-parser';
-import logger from 'morgan';
+import morgan from './utils/logger.js';
 
 import indexRouter from './routes/index.js';
 import usersRouter from './routes/users.js';
@@ -10,7 +10,7 @@ import { fileURLToPath } from 'url';
 const app = express();
 const __filename=fileURLToPath(import.meta.url)
 const __dirname =dirname(__filename)
-app.use(logger('dev'));
+app.use(morgan('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());

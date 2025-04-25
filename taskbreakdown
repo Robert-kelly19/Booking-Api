@@ -1,0 +1,108 @@
+🧠 Day 1: Project Setup + Auth Basics
+Goal: Set up the environment and build out user authentication.
+
+✅ Tasks:
+ Initialize Node.js project (npm init)
+
+ Install core dependencies: express, mongoose, dotenv, jsonwebtoken, bcryptjs, etc.
+
+ Set up folder structure (routes, controllers, models, middleware)
+
+ Configure environment variables (.env)
+
+ Connect to MongoDB (or your chosen DB)
+
+ Create User model (with role: client or provider)
+
+ Implement:
+
+ User registration endpoint
+
+ User login endpoint (return JWT)
+
+ Create auth middleware to protect private routes
+
+ Test auth flow with Postman or Insomnia
+
+🔁 Optional (but helpful): Set up your CLI for project scaffolding or seeding users/providers.
+
+🛠️ Day 2: Provider & Slot Management
+Goal: Allow providers to manage availability, and clients to view open slots.
+
+✅ Tasks:
+ Create Service Provider model (if not merged with User)
+
+ Create Time Slot model (date, time, duration, provider, isBooked)
+
+ Create endpoints:
+
+ Provider creates a time slot
+
+ Provider views their time slots
+
+ (Optional) Provider updates/deletes time slots
+
+ Endpoint: Clients view available slots for a specific provider (by date/date range)
+
+ Seed some test providers and slots into the DB
+
+ Test endpoints
+
+🔁 CLI Tool: Add command to seed or reset providers/time slots
+
+📅 Day 3: Appointment Flow + Real-Time
+Goal: Enable booking, viewing, canceling appointments + real-time notifications.
+
+✅ Tasks:
+ Create Appointment model (client, provider, slot, status)
+
+ Endpoints:
+
+ Book appointment (validate slot is available → mark as booked)
+
+ View "My Appointments" (Client)
+
+ View "My Bookings" (Service Provider)
+
+ Cancel appointment (update status, free slot)
+
+ Integrate Socket.io:
+
+ Notify provider when a new appointment is booked
+
+ (Stretch) Notify client + provider when an appointment is canceled
+
+ Test all flows with Postman & WebSocket client
+
+🧪 Day 4: Testing, Swagger Docs, Polish & Publish
+Goal: Final polish — test it, document it, and get ready to ship.
+
+✅ Tasks:
+ Set up Jest (or Node test runner)
+
+ Write tests for:
+
+ Registration/Login
+
+ Booking flow
+
+ Slot availability
+
+ Set up Swagger:
+
+ Document all routes (auth, slots, appointments)
+
+ Final cleanup (linting, error handling, config)
+
+ Optional: Dockerize your backend for easier deployment
+
+ Publish your CLI tool to npm:
+
+ Set bin in package.json
+
+ Add shebang + CLI logic
+
+ npm login + npm publish
+
+ Write/update README.md
+
