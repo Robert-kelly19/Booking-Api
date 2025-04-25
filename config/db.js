@@ -59,17 +59,26 @@ try {
         job VARCHAR(100) NOT NULL,
         description TEXT,
         created_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP,
-        updated_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP,
+        updated_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP
         )`
     )
     logger.info('successfully created service-provider table')
+    
+    await client.query(`
+         CREATE TABLE IF EXISTS appointment (
+         id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+         provider_id UUID NOT NULL REFERENCES service_provider(id) ON DELETE CASCADE,
+         user_id UUID NOT NULL REFERENCES user(id) ON DELETE CASCADE,
+         timeslot_id UUID NOT NULL REFERENCES timeslot(id) ON DELETE CASCADE
+         )
+        `)
 
     await client.query(`
         CREATE TABLE IF NOT EXISSTS timeslot (
         id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
         start_time TIMESTAMP,
         duration TIME NOT NULL,
-        provider_id UUID NOT NULL REFERRNCES service-provider(id) ON DELETE CASCADE,
+        provider_id UUID NOT NULL REFERENCES service-provider(id) ON DELETE CASCADE,
         )`
     )
     logger.info('successfully created timeslot table')
