@@ -3,90 +3,77 @@
 /**
  * Module dependencies.
  */
-
-import app  from '../app.js';
-import deb  from 'debug';
+import app from '../app.js';
+import deb from 'debug';
 import http from 'http';
 import logger from '../utils/logger.js';
-import {connectToDb, initialzeDbSchema} from "../config/db.js"
-
+import { connectToDb, initialzeDbSchema } from "../config/db.js";
 
 /**
- * Get port from environment and store in Express.
+ * Setup
  */
-const debug = deb('booking-service:server')
-const port = normalizePort(process.env.PORT || '3000');
+const debug = deb('booking-service:server');
+const port = normalizePort(process.env.PORT || '4000');
 app.set('port', port);
-
-/**
- * Create HTTP server.
- */
 
 const server = http.createServer(app);
 
 /**
- * Listen on provided port, on all network interfaces.
- */
-
-server.listen(port);
-server.on('error', onError);
-server.on('listening', onListening);
-
-/**
  * Normalize a port into a number, string, or false.
  */
-
 function normalizePort(val) {
   const port = parseInt(val, 10);
-
   if (isNaN(port)) {
-    // named pipe
+    // Named pipe
     return val;
   }
-
   if (port >= 0) {
-    // port number
+    // Port number
     return port;
   }
-
   return false;
 }
 
+/**
+ * Handle shutdown gracefully
+ */
 const signals = {
   'SIGHUP': 1,
   'SIGINT': 2,
   'SIGTERM': 15
-}
+};
 
-let shuttingDown = false
+let shuttingDown = false;
 
-const shutDown = (signal, values) => {
-  if(shuttingDown){
-    logger.info(`shutting down in progress , Recieved ${signal} again`)
-    return
+const shutDown = (signal, value) => {
+  if (shuttingDown) {
+    logger.info(`Shutdown already in progress. Received ${signal} again.`);
+    return;
   }
-  shuttingDown = true
-  logger.info(`Recieved ${signal}, shutting down gracefuuly`)
+  shuttingDown = true;
+  logger.info(`Received ${signal}. Shutting down gracefully...`);
+
   server.close((err) => {
-    if(err) {
-      logger.error('error while closing server', err)
-      process.exit(1)
+    if (err) {
+      logger.error('Error while closing server:', err);
+      process.exit(1);
     } else {
-      logger.info ('server closed, exiting the process')
-      process.exit(0)
+      logger.info('Server closed. Exiting process.');
+      process.exit(0);
     }
-  })
-}
-object.keys(signals).forEach((signal) => {
+  });
+};
+
+Object.keys(signals).forEach((signal) => {
   process.on(signal, () => {
-    logger.info(`recieved ${signal}`)
-    shutDown(signal, signals[signal])
-  })
+    logger.info(`Received ${signal}`);
+    shutDown(signal, signals[signal]);
+  });
 });
+
 /**
  * Event listener for HTTP server "error" event.
  */
-
 function onError(error) {
   if (error.syscall !== 'listen') {
     throw error;
@@ -96,14 +83,14 @@ function onError(error) {
     ? 'Pipe ' + port
     : 'Port ' + port;
 
-  // handle specific listen errors with friendly messages
+  // Handle specific listen errors
   switch (error.code) {
     case 'EACCES':
-      console.error(bind + ' requires elevated privileges');
+      logger.error(`${bind} requires elevated privileges`);
       process.exit(1);
       break;
     case 'EADDRINUSE':
-      console.error(bind + ' is already in use');
+      logger.error(`${bind} is already in use`);
       process.exit(1);
       break;
     default:
@@ -114,28 +101,37 @@ function onError(error) {
 /**
  * Event listener for HTTP server "listening" event.
  */
-
 function onListening() {
   const addr = server.address();
   const bind = typeof addr === 'string'
     ? 'pipe ' + addr
     : 'port ' + addr.port;
   debug('Listening on ' + bind);
+  logger.info(`Server is listening on ${bind}`);
 }
 
+/**
+ * Start server function
+ */
 const startServer = async () => {
   try {
-    logger.info(`Attempting to Start server on port ${port}`)
-    await connectToDb()
-    await initialzeDbSchema()
-    logger.info(`Starting server on port ${port}`)
+    logger.info(`Attempting to start server on port ${port}...`);
+
+    logger.info('Connecting to database...');
+    await connectToDb();
+
+    logger.info('Initializing database schema...');
+    await initialzeDbSchema();
+
+    logger.info('Connected to DB. Starting HTTP server...');
     server.listen(port);
     server.on('error', onError);
     server.on('listening', onListening);
-  } catch (error) {
-    logger.error('Failed during server startup process: ', error)
-    process.exit(1)
-  }
-}
 
-startServer()
+  } catch (error) {
+    logger.error('Failed during server startup process:', error);
+    process.exit(1);
+  }
+};
+
+startServer();

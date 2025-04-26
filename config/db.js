@@ -23,7 +23,7 @@ const pool = new Pool ({
     connectionTimeoutMillis: 2000
 })
 
-logger.info(`Database is configured on: ${database}`)
+logger.info(`Database is configured on: ${DB_NAME}`)
 pool.on("connect", (client) => {
     logger.info(`Client connected from Pool (Total count: ${pool.totalCount}`)
 })
@@ -33,25 +33,25 @@ const initialzeDbSchema = async () => {
 
 try {
     logger.info(`initailizing: ${DB_NAME} `)
-    await client.query(`CRAETE EXTENTION IF NOT EXISTS pgcrypto`)
+    await client.query(`CREATE EXTENSION IF NOT EXISTS pgcrypto`)
 
     //user table
     await client.query(`
-        CREATE TABLE IF NOT EXISSTS user (
+        CREATE TABLE IF NOT EXISTS users (
         id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
         first_name VARCHAR(20) NOT NULL,
         last_name VARCHAR(20) NOT NULL,
         email VARCHAR(225) UNIQUE NOT NULL,
         password VARCHAR(225) NOT NULL,
         created_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP,
-        updated_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP,
+        updated_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP
         )`
     )
     logger.info('successfully created user table')
 
     //service provider table
     await client.query(`
-        CREATE TABLE IF NOT EXISSTS service-provider (
+        CREATE TABLE IF NOT EXISTS service-provider (
         id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
         provider_name VARCHAR(225) NOT NULL,
         email VARCHAR(225) UNIQUE NOT NULL,
@@ -74,11 +74,12 @@ try {
         `)
 
     await client.query(`
-        CREATE TABLE IF NOT EXISSTS timeslot (
+        CREATE TABLE IF NOT EXISTS timeslot (
         id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
         start_time TIMESTAMP,
         duration TIME NOT NULL,
-        provider_id UUID NOT NULL REFERENCES service-provider(id) ON DELETE CASCADE,
+        is_reserved BOOLEAN,
+        provider_id UUID NOT NULL REFERENCES service-provider(id) ON DELETE CASCADE
         )`
     )
     logger.info('successfully created timeslot table')
@@ -100,4 +101,17 @@ const connectToDb = async () => {
     }
   }
 
-  export { pool, initialzeDbSchema, connectToDb }
+  const query = async (text, params) => {
+    const start = Date.now()
+    try {
+      const response = await pool.query(text, params)
+      const duration = Date.now() - start;
+      logger.info(`Executed query: { text: ${text.substring(0, 100)}..., params: ${JSON.stringify(params)}, duration: ${duration}ms, rows: ${response.rowCount}}`);
+      return response
+    } catch (error) {
+      logger.error(`Error executing query: { text: ${text.substring(0, 100)}..., params: ${JSON.stringify(params)}, error: ${error.message}}`);
+      throw error
+    }
+  }
+
+  export { pool, initialzeDbSchema, connectToDb, query }
