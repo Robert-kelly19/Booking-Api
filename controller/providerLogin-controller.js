@@ -3,20 +3,20 @@ import logger from "../utils/logger.js";
 import bcrypt from "bcryptjs";
 import jwt from 'jsonwebtoken'
 
-export default async function userloginHandler(req,res,next) {
+export default async function providerloginHandler(req,res,next) {
     const {email,password} = req.body
 
     try {
-        const findUser = 'SELECT id,first_name,last_name,email,password FROM users WHERE email = $1'
-        const findUserResult = await query(findUser,[email])
+        const findprovider = 'SELECT id,providerName,email,password, job, description FROM provider WHERE email = $1'
+        const findproviderResult = await query(findprovider,[email])
 
-        if(findUserResult.rowCount === 0) {
+        if(findproviderResult.rowCount === 0) {
             logger.info(`login attempt failed, ${email} not found`)
             return res.status(401).json({message: "invalid credentials"})
         }
-        const user=findUserResult.rows[0]
+        const provider=findproviderResult.rows[0]
 
-        const passwordMatch = await bcrypt.compare(password, user.password)
+        const passwordMatch = await bcrypt.compare(password, provider.password)
 
         if(!passwordMatch){
             logger.warn(`Login failed, invalid password for: ${email}`)
@@ -24,9 +24,9 @@ export default async function userloginHandler(req,res,next) {
         }
 
         const payload = {
-            user: {
-                id: user.id,
-                email: user.email
+            provider: {
+                id: provider.id,
+                email: provider.email
             }
         }
         jwt.sign(payload, process.env.JWT_SECRET,{
@@ -36,15 +36,15 @@ export default async function userloginHandler(req,res,next) {
                 logger.error(`error generating jwt for ${email}: `, err)
                 throw new Error('Error generating authentication token')
             }
-            logger.info(`user ${email} logged in successfully`)
+            logger.info(`provider ${email} logged in successfully`)
             res.json({
                 message: `successfully logged into account`,
                 token: token,
-                user: {
-                    id: user.id,
-                    firstName: user.first_name,
-                    lastName: user.last_name,
-                    email: user.email
+                provider: {
+                    id: provider.id,
+                    firstName: provider.first_name,
+                    lastName: provider.last_name,
+                    email: provider.email
                 }
             })
         })
