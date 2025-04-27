@@ -51,13 +51,13 @@ try {
 
     //service provider table
     await client.query(`
-        CREATE TABLE IF NOT EXISTS service-provider (
+        CREATE TABLE IF NOT EXISTS provider (
         id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-        provider_name VARCHAR(225) NOT NULL,
+        providerName VARCHAR(225) NOT NULL,
         email VARCHAR(225) UNIQUE NOT NULL,
         password VARCHAR(225) NOT NULL,
         job VARCHAR(100) NOT NULL,
-        description TEXT,
+        description TEXT NOT NULL,
         created_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP,
         updated_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP
         )`

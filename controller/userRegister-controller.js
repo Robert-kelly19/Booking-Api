@@ -18,15 +18,15 @@ export default async function userRegisterHandler(req,res,next){
         logger.debug(`password  encrypted for user:${firstName}`)
 
         const insertUser = `INSERT INTO users (first_name, last_name, email, password)
-                            VALUES($1,$2,$3,$4) RETURNING id`
+                            VALUES($1,$2,$3,$4) RETURNING first_name`
         const newUserResult = await query(insertUser,[firstName,lastName,email,encryptPassword ])
         
         const newUser = newUserResult.rows[0]
-        logger.info(`${newUser.id} registered successfully`)
+        logger.info(`${newUser.first_name}: registered successfully`)
 
         return res.status(201).json({message:"successfully registered",
-            userid:{
-                id:newUser.id
+            username:{
+                name:newUser.first_name
             }
         })
     } catch (error) {
