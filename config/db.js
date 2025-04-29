@@ -45,7 +45,7 @@ try {
         password VARCHAR(225) NOT NULL,
         created_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP,
         updated_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP
-        )`
+        );`
     )
     logger.info('successfully created user table')
 
@@ -60,29 +60,32 @@ try {
         description TEXT NOT NULL,
         created_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP,
         updated_at TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP
-        )`
+        );`
     )
-    logger.info('successfully created service-provider table')
-    
-    await client.query(`
-         CREATE TABLE IF EXISTS appointment (
-         id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-         provider_id UUID NOT NULL REFERENCES service_provider(id) ON DELETE CASCADE,
-         user_id UUID NOT NULL REFERENCES user(id) ON DELETE CASCADE,
-         timeslot_id UUID NOT NULL REFERENCES timeslot(id) ON DELETE CASCADE
-         )
-        `)
+    logger.info('successfully created provider table')
 
     await client.query(`
-        CREATE TABLE IF NOT EXISTS timeslot (
-        id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-        start_time TIMESTAMP,
-        duration TIME NOT NULL,
-        is_reserved BOOLEAN,
-        provider_id UUID NOT NULL REFERENCES service-provider(id) ON DELETE CASCADE
-        )`
-    )
+      CREATE TABLE IF NOT EXISTS timeslot (
+      id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+      owner_id UUID NOT NULL REFERENCES provider(id) ON DELETE CASCADE,
+      day DATE NOT NULL,
+      start_time TIME NOT NULL,
+      end_time TIME NOT NULL,
+      is_reserved BOOLEAN
+      );
+      `)
     logger.info('successfully created timeslot table')
+      
+    await client.query(`
+         CREATE TABLE IF NOT EXISTS appointment (
+         id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+         provider_id UUID NOT NULL REFERENCES provider(id) ON DELETE CASCADE,
+         user_id UUID NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+         timeslot_id UUID NOT NULL REFERENCES timeslot(id) ON DELETE CASCADE
+         );
+        `)
+      logger.info('appoitment table created successfully')
+
 } catch (error) {
     logger.error(`Error while loading InitialzeDbSchema`,error)
 } finally{

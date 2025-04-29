@@ -21,6 +21,7 @@ export default async function providerRegisterHandler(req,res,next){
                             VALUES($1,$2,$3,$4,$5) RETURNING id`
         const newProviderResult = await query(insertprovider,[providerName,email,encryptPassword,job,description ])
         
+        
         const newProvider = newProviderResult.rows[0]
         logger.info(`${newProvider.providerName} registered successfully`)
 

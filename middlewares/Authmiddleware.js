@@ -2,7 +2,7 @@ import jwt from "jsonwebtoken"
 import logger from "../utils/logger.js"
 
 const Auth = (req, res, next) => {
-    const authHeader = req.head("Authorization")
+    const authHeader = req.header("Authorization")
     const token = authHeader && authHeader.startsWith('Bearer ') ? authHeader.split(' ')[1] : null;
 
     if(!token){
@@ -10,12 +10,12 @@ const Auth = (req, res, next) => {
         return res.status(401).json({message: 'Authorization denied, no token provided'})
     } try {
         const decoded = jwt.decode(token,process.env.JTW_SECRET)
-        req.user = decoded.user
-        logger.debug(`Authorization approved for ${res.user.id}`)
+        req.user = decoded.provider
+        logger.debug(`Authorization approved for ${req.user.id}`)
         next()
     } catch (error) {
-        logger.error('Auth iddleware: token verification failed', err)
-        if (err.name === 'TokenExpiredError') {
+        logger.error('Auth middleware: token verification failed', error)
+        if (error.name === 'TokenExpiredError') {
           return res.status(401).json({ message: "Token is expired" })
         }
         if (error.name === 'JsonWebTokenError') {
