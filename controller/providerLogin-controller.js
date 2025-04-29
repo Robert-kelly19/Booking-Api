@@ -26,7 +26,7 @@ export default async function providerloginHandler(req,res,next) {
         const payload = {
             provider: {
                 id: provider.id,
-                email: provider.email
+                email: provider.email,
             }
         }
         jwt.sign(payload, process.env.JWT_SECRET,{
@@ -42,8 +42,7 @@ export default async function providerloginHandler(req,res,next) {
                 token: token,
                 provider: {
                     id: provider.id,
-                    firstName: provider.first_name,
-                    lastName: provider.last_name,
+                    providerName: provider.providerName,
                     email: provider.email
                 }
             })

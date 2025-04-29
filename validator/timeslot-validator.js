@@ -13,4 +13,16 @@ export const createtimeSlotValidator = (req, res, next) => {
       return res.status(400).json({ message: error.details[0].message });
     }
     next();
-  }
+}
+
+const slotIdSchema =Joi.object({
+    id: Joi.string().required()
+})
+
+export const getslotIdvalidator = (req,res,next) => {
+    const {error} = slotIdSchema.validate(req.params)
+    if (error){
+        return res.status(400).json({message: error.details[0].message})
+    }
+    next()
+}
