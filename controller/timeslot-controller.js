@@ -42,7 +42,7 @@ export async function  getSlotBYId(req,res,next) {
         const getslotId = `SELECT id, day,start_time, end_time, is_reserved FROM timeslot WHERE 
                             id = $1 AND owner_id = $2`;
 
-        const result = await query(getslotId,[providerId,slotId])
+        const result = await query(getslotId,[slotId, providerId])
 
         if(result.rows.length === 0){
             logger.warn(`task not found or access denied to task ${slotId}, provider id ${providerId}`)
