@@ -45,7 +45,7 @@ export async function  getSlotBYId(req,res,next) {
         const result = await query(getslotId,[slotId, providerId])
 
         if(result.rows.length === 0){
-            logger.warn(`task not found or access denied to task ${slotId}, provider id ${providerId}`)
+            logger.warn(`slot not found or access denied to task ${slotId}, provider id ${providerId}`)
             return res.status(404).json({message: `task not found or access denied for ${slotId} with provider id:${providerId}`})
         }
         logger.debug(`fetched ${slotId} for ${providerId}`)
@@ -53,5 +53,33 @@ export async function  getSlotBYId(req,res,next) {
     } catch (error) {
        logger.error(`error while fetchin time slot${slotId}`)
        return res.status(500).json({message: error.message || `server error occured while fetching time slot ${slotId}`}) 
+    }
+}
+
+export  async function updateTimeSlot(req,res,next) {
+    const slotId = req.params.id
+    const providerId = req.user.id
+    const {day,startTime,endTime,is_reserved} = req.body
+
+    try {
+        const updateslot = `UPDATE timeslot SET day = $1, start_time = $2, end_time = $3, 
+                            is_reserved = $4 WHERE id = $5 AND owner_id = $6 RETURNING *`;
+        const result = await query(updateslot,[day,startTime,endTime,is_reserved,slotId,providerId])
+
+        if(result.rows.length === 0){
+            logger.warn(`update failed:slot not found or access denied to task ${slotId}, provider id ${providerId}`)
+            const checkslot = `SELECT id FROM timeslot WHERE id = $1`
+            const newResult = await query(checkslot,[slotId])
+            if(newResult.rows.length === 0){
+                return res.status(404).json({message:"time slot not found"})
+            } else {
+                return res.status(403).json({message:"you dont have permission for this slot"})
+            }
+        }
+        logger.info(`successfully updated time slot ${slotId} by provider ${providerId}`)
+        return res.json(result.rows[0])
+    } catch (error) {
+        logger.error(`error updating time slot ${slotId} for provider ${providerId}:`,error)
+        return res.status(error.status || 500).json({message:error.message||`error updating time slot ${slotId}`})
     }
 }
