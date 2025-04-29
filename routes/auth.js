@@ -16,4 +16,5 @@ router.post("/providerRegister", validateProvider, providerRegisterHandler,)
 
 router.post("/providerlogin",providerLoginvalidator,providerloginHandler)
 
+
 export default router

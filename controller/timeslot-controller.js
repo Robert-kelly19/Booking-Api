@@ -73,7 +73,7 @@ export  async function updateTimeSlot(req,res,next) {
             if(newResult.rows.length === 0){
                 return res.status(404).json({message:"time slot not found"})
             } else {
-                return res.status(403).json({message:"you dont have permission for this slot"})
+                return res.status(403).json({message:"you dont have permission for this time slot"})
             }
         }
         logger.info(`successfully updated time slot ${slotId} by provider ${providerId}`)
@@ -81,5 +81,30 @@ export  async function updateTimeSlot(req,res,next) {
     } catch (error) {
         logger.error(`error updating time slot ${slotId} for provider ${providerId}:`,error)
         return res.status(error.status || 500).json({message:error.message||`error updating time slot ${slotId}`})
+    }
+}
+
+export async function deleteSlot(req,res,next){
+    const slotId = req.params.id
+    const providerId = req.user.id
+    try {
+        const deleteSlot = `DELETE FROM timeslot WHERE id = $1 and owner_id = $2`;
+        const result = await query(deleteSlot,[slotId,providerId])
+
+        if(result.rows.length === 0){
+            logger.warn(`fail to delete time slot ${slotId} or access denied for provider ${providerId} `)
+            const checkExistance = `SELECT id FROM timeslot WHERE id = $1`;
+            const newResult = await query(checkExistance, [slotId])
+            if(newResult.rows.length === 0 ){
+                return res.status(404).json({message:`time slot not found`})
+            }else{
+                return res.status(403).json({message:`you do not have permission for this time slot`})
+            }
+        }
+        logger.info(`successfully deleted time slot:${slotId} by provider: ${providerId}`)
+        return res.status(204).json({message:'time slot was deleted'})
+    } catch (error) {
+        logger.error(`error deleting time slot:${slotId} for provider:${providerId}:`,error)
+        return res.status(error.status||500).json({message:error.message || `server error while deleting ${slotId}`})
     }
 }

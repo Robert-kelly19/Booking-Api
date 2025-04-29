@@ -9935,3 +9935,1410 @@
 {"level":"info","message":"Executed query: { text: UPDATE timeslot SET day = $1, start_time = $2, end_time = $3, \n                            is_reserv..., params: [\"2025-05-6\",\"17:20\",\"18:35\",\"true\",\"f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa\",\"0f0f1264-5f0e-403c-bacf-27992fa50992\"], duration: 89ms, rows: 1}","timestamp":"2025-04-29 17:25:20"}
 {"level":"info","message":"successfully updated time slot f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa by provider 0f0f1264-5f0e-403c-bacf-27992fa50992","timestamp":"2025-04-29 17:25:20"}
 {"level":"info","message":"Received SIGINT","timestamp":"2025-04-29 17:26:03"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 17:30:03"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 17:30:03"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 17:30:03"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 17:30:03"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 17:30:03"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 17:30:03"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 17:30:03"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 17:30:03"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 17:30:03"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 17:30:03"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 17:30:03"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 17:30:03"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 17:30:03"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:03:54"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:03:57"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:03:59"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:04:00"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:04:00"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:04:00"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:04:00"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:04:00"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:04:00"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:04:00"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:04:00"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:04:00"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:04:00"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:04:00"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:04:00"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:04:03"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:05:10"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:05:10"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:05:10"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:05:10"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:05:10"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:05:10"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:05:10"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:05:10"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:05:10"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:05:10"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:05:10"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:05:10"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:05:10"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:05:32"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:05:32"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:05:32"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:05:32"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:05:32"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:05:32"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:05:32"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:05:32"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:05:32"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:05:32"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:05:32"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:05:32"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:05:32"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:06:03"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:06:04"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:06:04"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:06:04"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:06:04"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:06:04"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:06:04"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:06:04"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:06:04"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:06:04"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:06:04"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:06:04"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:06:04"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:06:07"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:06:07"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:06:07"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:06:07"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:06:07"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:06:07"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:06:07"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:06:07"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:06:07"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:06:07"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:06:07"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:06:07"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:06:07"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:06:19"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:06:19"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:06:19"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:06:19"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:06:19"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:06:19"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:06:19"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:06:19"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:06:19"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:06:19"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:06:19"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:06:19"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:06:19"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:06:44"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:06:45"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:06:45"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:06:45"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:06:45"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:06:45"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:06:45"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:06:45"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:06:45"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:06:45"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:06:45"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:06:45"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:06:45"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:06:53"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:06:54"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:06:54"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:06:54"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:06:54"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:06:54"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:06:54"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:06:54"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:06:54"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:06:54"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:06:54"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:06:54"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:06:54"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:07:03"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:07:04"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:07:04"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:07:04"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:07:04"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:07:04"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:07:04"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:07:04"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:07:04"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:07:04"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:07:04"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:07:04"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:07:04"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:07:12"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:07:12"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:07:12"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:07:12"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:07:12"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:07:12"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:07:12"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:07:12"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:07:12"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:07:12"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:07:12"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:07:12"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:07:12"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:07:17"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:07:18"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:07:18"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:07:18"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:07:18"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:07:18"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:07:18"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:07:18"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:07:18"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:07:18"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:07:18"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:07:18"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:07:18"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:07:24"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:07:24"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:07:24"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:07:24"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:07:24"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:07:24"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:07:24"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:07:24"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:07:24"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:07:24"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:07:24"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:07:24"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:07:24"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:07:31"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:07:31"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:07:31"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:07:31"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:07:31"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:07:31"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:07:31"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:07:31"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:07:31"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:07:31"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:07:31"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:07:31"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:07:31"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:08:07"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:08:07"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:08:07"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:08:07"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:08:07"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:08:07"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:08:07"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:08:07"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:08:07"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:08:07"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:08:07"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:08:07"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:08:07"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:08:12"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:08:13"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:08:13"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:08:13"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:08:13"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:08:13"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:08:13"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:08:13"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:08:13"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:08:13"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:08:13"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:08:13"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:08:13"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:08:14"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:08:14"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:08:14"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:08:15"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:08:15"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:08:15"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:08:15"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:08:15"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:08:15"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:08:15"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:08:15"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:08:15"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:08:15"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:08:23"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:08:23"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:08:23"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:08:23"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:08:23"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:08:23"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:08:23"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:08:23"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:08:23"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:08:23"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:08:23"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:08:23"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:08:23"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:08:35"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:08:35"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:08:35"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:08:35"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:08:35"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:08:35"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:08:35"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:08:35"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:08:35"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:08:35"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:08:35"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:08:35"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:08:35"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:09:15"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:09:16"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:09:16"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:09:16"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:09:16"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:09:16"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:09:16"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:09:16"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:09:16"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:09:16"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:09:16"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:09:16"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:09:16"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:09:26"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:09:26"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:09:26"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:09:26"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:09:26"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:09:26"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:09:26"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:09:26"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:09:26"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:09:26"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:09:26"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:09:26"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:09:26"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:09:45"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:09:45"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:09:45"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:09:45"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:09:45"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:09:45"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:09:45"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:09:45"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:09:45"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:09:45"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:09:45"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:09:45"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:09:45"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:09:48"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:09:49"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:09:49"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:09:49"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:09:49"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:09:49"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:09:49"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:09:49"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:09:49"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:09:49"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:09:49"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:09:49"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:09:49"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:09:54"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:09:54"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:09:54"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:09:54"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:09:54"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:09:54"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:09:54"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:09:54"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:09:54"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:09:54"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:09:54"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:09:54"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:09:54"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:10:01"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:10:01"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:10:01"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:10:01"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:10:01"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:10:01"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:10:01"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:10:01"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:10:01"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:10:01"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:10:01"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:10:01"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:10:01"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:10:07"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:10:08"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:10:08"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:10:08"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:10:08"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:10:08"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:10:08"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:10:08"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:10:08"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:10:08"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:10:08"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:10:08"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:10:08"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:10:15"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:10:15"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:10:15"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:10:15"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:10:15"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:10:15"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:10:15"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:10:15"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:10:15"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:10:15"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:10:15"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:10:15"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:10:15"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:10:33"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:10:34"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:10:34"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:10:34"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:10:34"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:10:34"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:10:34"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:10:34"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:10:34"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:10:34"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:10:34"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:10:34"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:10:34"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:10:35"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:10:36"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:10:36"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:10:36"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:10:36"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:10:36"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:10:36"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:10:36"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:10:36"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:10:36"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:10:36"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:10:36"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:10:36"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:11:04"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:11:04"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:11:04"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:11:04"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:11:04"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:11:04"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:11:04"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:11:04"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:11:04"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:11:04"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:11:04"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:11:04"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:11:04"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:11:17"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:11:17"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:11:17"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:11:17"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:11:17"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:11:17"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:11:17"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:11:17"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:11:17"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:11:17"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:11:17"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:11:17"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:11:17"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:11:47"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:11:47"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:11:47"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:11:47"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:11:47"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:11:47"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:11:47"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:11:47"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:11:47"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:11:47"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:11:47"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:11:47"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:11:47"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:15:03"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:15:03"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:15:03"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:15:03"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:15:03"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:15:03"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:15:03"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:15:03"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:15:03"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:15:03"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:15:03"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:15:03"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:15:03"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:15:21"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:15:22"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:15:22"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:15:22"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:15:22"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:15:22"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:15:22"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:15:22"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:15:22"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:15:22"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:15:22"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:15:22"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:15:22"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:15:24"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:15:24"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:15:24"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:15:24"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:15:24"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:15:24"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:15:24"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:15:24"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:15:24"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:15:24"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:15:24"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:15:24"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:15:24"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:15:26"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:15:26"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:15:26"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:15:26"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:15:26"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:15:26"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:15:26"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:15:26"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:15:26"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:15:26"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:15:26"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:15:26"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:15:26"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:16:08"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:16:08"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:16:08"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:16:08"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:16:08"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:16:08"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:16:08"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:16:08"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:16:08"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:16:08"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:16:08"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:16:08"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:16:08"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:16:52"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:16:52"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:16:52"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:16:52"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:16:52"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:16:52"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:16:52"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:16:52"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:16:52"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:16:52"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:16:52"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:16:52"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:16:52"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:16:57"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:16:58"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:16:58"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:16:58"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:16:58"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:16:58"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:16:58"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:16:58"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:16:58"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:16:58"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:16:58"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:16:58"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:16:58"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:17:13"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:17:13"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:17:13"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:17:13"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:17:13"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:17:13"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:17:13"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:17:13"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:17:13"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:17:13"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:17:13"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:17:13"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:17:13"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:18:52"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:18:52"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:18:52"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:18:52"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:18:52"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:18:52"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:18:52"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:18:52"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:18:52"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:18:52"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:18:52"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:18:52"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:18:52"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:18:59"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:18:59"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:18:59"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:18:59"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:18:59"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:18:59"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:18:59"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:18:59"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:18:59"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:18:59"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:18:59"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:18:59"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:18:59"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:19:16"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:19:16"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:19:16"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:19:16"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:19:16"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:19:16"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:19:16"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:19:16"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:19:16"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:19:16"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:19:16"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:19:16"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:19:16"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:19:20"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:19:21"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:19:21"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:19:21"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:19:21"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:19:21"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:19:21"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:19:21"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:19:21"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:19:21"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:19:21"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:19:21"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:19:21"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:19:29"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:19:30"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:19:30"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:19:30"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:19:30"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:19:30"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:19:30"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:19:30"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:19:30"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:19:30"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:19:30"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:19:30"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:19:30"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:20:02"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:20:02"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:20:02"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:20:03"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:20:03"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:20:03"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:20:03"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:20:03"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:20:03"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:20:03"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:20:03"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:20:03"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:20:03"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:20:08"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:20:08"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:20:08"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:20:08"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:20:08"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:20:08"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:20:08"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:20:08"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:20:08"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:20:08"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:20:08"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:20:08"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:20:08"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:20:17"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:20:18"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:20:18"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:20:18"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:20:18"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:20:18"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:20:18"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:20:18"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:20:18"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:20:18"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:20:18"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:20:18"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:20:18"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:20:21"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:20:21"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:20:21"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:20:21"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:20:21"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:20:21"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:20:21"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:20:21"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:20:21"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:20:21"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:20:21"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:20:21"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:20:21"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:20:28"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:20:28"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:20:28"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:20:28"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:20:28"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:20:28"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:20:28"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:20:28"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:20:28"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:20:28"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:20:28"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:20:28"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:20:28"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:20:30"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:20:30"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:20:30"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:20:30"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:20:30"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:20:30"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:20:30"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:20:30"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:20:30"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:20:30"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:20:30"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:20:30"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:20:31"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:21:18"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:21:18"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:21:18"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:21:18"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:21:18"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:21:18"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:21:18"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:21:19"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:21:19"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:21:19"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:21:19"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:21:19"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:21:19"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:21:26"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:21:27"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:21:27"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:21:27"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:21:27"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:21:27"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:21:27"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:21:27"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:21:27"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:21:27"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:21:27"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:21:27"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:21:27"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:24:25"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:24:26"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:24:26"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:24:26"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:24:26"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:24:26"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:24:26"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:24:26"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:24:26"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:24:26"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:24:26"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:24:26"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:24:26"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:24:39"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:24:39"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:24:39"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:24:39"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:24:39"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:24:39"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:24:39"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:24:39"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:24:39"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:24:39"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:24:39"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:24:39"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:24:39"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:24:52"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:24:52"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:24:52"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:24:52"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:24:52"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:24:52"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:24:52"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:24:52"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:24:52"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:24:52"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:24:52"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:24:52"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:24:52"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:25:03"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:25:03"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:25:03"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:25:04"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:25:04"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:25:04"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:25:04"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:25:04"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:25:04"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:25:04"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:25:04"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:25:04"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:25:04"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:25:11"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:25:12"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:25:12"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:25:12"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:25:12"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:25:12"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:25:12"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:25:12"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:25:12"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:25:12"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:25:12"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:25:12"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:25:12"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:25:22"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:25:23"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:25:23"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:25:23"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:25:23"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:25:23"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:25:23"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:25:23"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:25:23"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:25:23"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:25:23"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:25:23"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:25:23"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:26:19"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:26:19"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:26:19"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:26:19"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:26:19"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:26:19"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:26:19"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:26:19"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:26:19"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:26:19"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:26:19"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:26:19"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:26:19"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:28:41"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:28:41"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:28:41"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:28:42"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:28:42"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:28:42"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:28:42"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:28:42"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:28:42"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:28:42"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:28:42"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:28:42"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:28:42"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:28:49"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:28:49"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:28:49"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:28:50"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:28:50"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:28:50"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:28:50"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:28:50"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:28:50"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:28:50"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:28:50"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:28:50"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:28:50"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:28:54"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:28:54"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:28:54"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:28:54"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:28:54"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:28:54"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:28:54"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:28:54"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:28:54"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:28:54"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:28:54"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:28:54"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:28:54"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:29:13"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:29:13"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:29:13"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:29:13"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:29:13"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:29:13"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:29:13"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:29:13"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:29:13"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:29:13"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:29:13"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:29:13"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:29:13"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:29:26"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:29:27"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:29:27"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:29:27"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:29:27"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:29:27"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:29:27"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:29:27"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:29:27"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:29:27"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:29:27"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:29:27"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:29:27"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:29:32"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:29:32"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:29:32"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:29:33"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:29:33"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:29:33"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:29:33"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:29:33"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:29:33"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:29:33"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:29:33"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:29:33"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:29:33"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:29:40"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:29:40"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:29:40"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:29:40"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:29:40"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:29:40"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:29:40"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:29:40"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:29:40"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:29:40"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:29:40"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:29:40"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:29:40"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:30:04"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:30:04"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:30:04"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:30:04"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:30:04"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:30:04"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:30:04"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:30:04"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:30:04"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:30:04"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:30:04"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:30:05"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:30:05"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:30:11"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:30:11"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:30:11"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:30:12"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:30:15"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:30:15"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:30:15"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:30:15"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:30:15"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:30:15"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:30:15"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:30:15"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:30:15"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:30:15"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:30:15"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:30:15"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:30:15"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:30:18"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:30:18"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:30:18"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:30:18"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:30:18"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:30:18"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:30:18"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:30:18"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:30:18"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:30:18"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:30:18"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:30:18"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:30:18"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:30:25"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:30:25"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:30:25"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:30:25"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:30:25"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:30:25"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:30:25"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:30:25"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:30:25"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:30:25"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:30:25"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:30:25"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:30:25"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:30:43"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:30:44"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:30:44"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:30:44"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:30:44"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:30:44"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:30:44"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:30:44"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:30:44"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:30:44"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:30:44"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:30:44"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:30:44"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:30:52"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:30:53"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:30:53"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:30:53"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:30:53"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:30:53"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:30:53"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:30:53"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:30:53"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:30:53"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:30:53"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:30:53"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:30:53"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:30:57"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:30:58"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:30:58"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:30:58"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:30:58"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:30:58"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:30:58"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:30:58"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:30:58"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:30:58"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:30:58"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:30:58"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:30:58"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:31:07"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:31:08"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:31:08"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:31:08"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:31:08"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:31:08"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:31:08"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:31:08"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:31:08"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:31:08"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:31:08"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:31:08"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:31:08"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:31:10"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:31:10"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:31:10"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:31:10"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:31:10"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:31:10"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:31:10"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:31:10"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:31:10"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:31:10"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:31:10"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:31:10"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:31:10"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:31:22"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:31:22"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:31:22"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:31:22"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:31:22"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:31:22"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:31:22"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:31:22"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:31:22"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:31:22"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:31:22"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:31:22"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:31:23"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:31:25"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:31:25"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:31:25"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:31:25"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:31:25"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:31:25"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:31:25"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:31:25"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:31:25"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:31:25"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:31:25"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:31:25"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:31:25"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:31:33"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:31:34"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:31:34"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:31:34"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:31:34"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:31:34"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:31:34"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:31:34"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:31:34"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:31:34"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:31:34"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:31:34"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:31:34"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:31:41"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:31:41"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:31:41"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:31:41"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:31:41"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:31:41"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:31:41"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:31:41"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:31:41"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:31:41"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:31:41"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:31:41"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:31:41"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:31:47"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:31:47"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:31:47"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:31:47"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:31:47"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:31:47"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:31:47"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:31:47"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:31:47"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:31:47"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:31:47"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:31:47"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:31:47"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:32:17"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:32:18"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:32:18"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:32:18"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:32:18"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:32:18"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:32:18"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:32:18"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:32:18"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:32:18"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:32:18"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:32:18"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:32:18"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:32:40"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:32:40"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:32:40"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:32:40"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:32:40"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:32:40"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:32:40"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:32:40"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:32:40"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:32:40"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:32:40"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:32:40"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:32:40"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:33:07"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:33:07"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:33:07"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:33:07"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:33:07"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:33:07"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:33:07"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:33:07"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:33:07"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:33:07"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:33:07"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:33:07"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:33:07"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:33:28"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:33:28"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:33:28"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:33:29"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:33:29"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:33:29"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:33:29"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:33:29"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:33:29"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:33:29"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:33:29"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:33:29"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:33:29"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:33:54"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:34:01"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:34:16"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:34:17"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:34:17"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:34:17"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:34:17"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:34:17"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:34:17"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:34:17"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:34:17"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:34:17"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:34:17"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:34:17"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:34:17"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:34:24"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:34:24"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:34:24"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:34:24"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:34:24"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:34:24"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:34:24"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:34:24"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:34:24"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:34:24"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:34:24"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:34:24"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:34:24"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:34:35"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:34:49"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:34:53"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:34:55"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:34:57"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:34:59"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:35:05"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:35:08"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:35:24"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:35:28"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:35:31"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:35:59"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:36:01"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:36:01"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:36:01"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:36:01"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:36:01"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:36:01"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:36:01"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:36:01"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:36:01"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:36:01"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:36:01"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:36:01"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:36:01"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:36:10"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:36:10"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:36:10"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:36:10"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:36:10"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:36:10"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:36:10"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:36:10"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:36:10"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:36:10"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:36:10"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:36:10"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:36:10"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:36:13"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:36:17"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:36:20"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:36:20"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:36:20"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:36:20"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:36:20"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:36:20"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:36:20"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:36:20"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:36:20"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:36:20"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:36:20"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:36:20"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:36:20"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:45:16"}
+{"level":"info","message":"Executed query: { text: SELECT id,providerName,email,password, job, description FROM provider WHERE email = $1..., params: [\"kelly@gamil1.com\"], duration: 58ms, rows: 1}","timestamp":"2025-04-29 18:45:16"}
+{"level":"info","message":"provider kelly@gamil1.com logged in successfully","timestamp":"2025-04-29 18:45:17"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:45:47"}
+{"level":"error","message":"Error executing query: { text: DELETE * FROM timeslot WHERE id = $1 and owner_id = $2..., params: [\"f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa\",\"0f0f1264-5f0e-403c-bacf-27992fa50992\"], error: syntax error at or near \"*\"}","timestamp":"2025-04-29 18:45:47"}
+{"code":"42601","file":"scan.l","length":89,"level":"error","line":"1244","message":"error deleting time slot:f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa for provider:0f0f1264-5f0e-403c-bacf-27992fa50992: syntax error at or near \"*\"","name":"error","position":"8","routine":"scanner_yyerror","severity":"ERROR","stack":"error: syntax error at or near \"*\"\n    at /home/akuma19/Desktop/BE-Projects/booking-service/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async query (file:///home/akuma19/Desktop/BE-Projects/booking-service/config/db.js:110:24)\n    at async deleteSlot (file:///home/akuma19/Desktop/BE-Projects/booking-service/controller/timeslot-controller.js:92:24)","timestamp":"2025-04-29 18:45:47"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:47:31"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:47:32"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:47:32"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:47:32"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:47:32"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:47:32"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:47:32"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:47:32"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:47:32"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:47:32"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:47:32"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:47:32"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:47:32"}
+{"level":"info","message":"Executed query: { text: DELETE FROM timeslot WHERE id = $1 and owner_id = $2..., params: [\"f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa\",\"0f0f1264-5f0e-403c-bacf-27992fa50992\"], duration: 17ms, rows: 1}","timestamp":"2025-04-29 18:47:35"}
+{"level":"warn","message":"fail to delete time slot f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa or access denied for provider 0f0f1264-5f0e-403c-bacf-27992fa50992 ","timestamp":"2025-04-29 18:47:35"}
+{"level":"error","message":"error deleting time slot:f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa for provider:0f0f1264-5f0e-403c-bacf-27992fa50992: Cannot read properties of undefined (reading 'length')","stack":"TypeError: Cannot read properties of undefined (reading 'length')\n    at deleteSlot (file:///home/akuma19/Desktop/BE-Projects/booking-service/controller/timeslot-controller.js:98:31)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-04-29 18:47:35"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:50:27"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:50:28"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:50:28"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:50:28"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:50:28"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:50:28"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:50:28"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:50:28"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:50:28"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:50:28"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:50:28"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:50:28"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:50:28"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:51:00"}
+{"level":"info","message":"Executed query: { text: DELETE FROM timeslot WHERE id = $1 and owner_id = $2..., params: [\"f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa\",\"0f0f1264-5f0e-403c-bacf-27992fa50992\"], duration: 84ms, rows: 0}","timestamp":"2025-04-29 18:51:00"}
+{"level":"warn","message":"fail to delete time slot f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa or access denied for provider 0f0f1264-5f0e-403c-bacf-27992fa50992 ","timestamp":"2025-04-29 18:51:00"}
+{"level":"error","message":"error deleting time slot:f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa for provider:0f0f1264-5f0e-403c-bacf-27992fa50992: Cannot read properties of undefined (reading 'length')","stack":"TypeError: Cannot read properties of undefined (reading 'length')\n    at deleteSlot (file:///home/akuma19/Desktop/BE-Projects/booking-service/controller/timeslot-controller.js:98:31)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-04-29 18:51:00"}
+{"level":"info","message":"Executed query: { text: DELETE FROM timeslot WHERE id = $1 and owner_id = $2..., params: [\"f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa\",\"0f0f1264-5f0e-403c-bacf-27992fa50992\"], duration: 3ms, rows: 0}","timestamp":"2025-04-29 18:51:03"}
+{"level":"warn","message":"fail to delete time slot f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa or access denied for provider 0f0f1264-5f0e-403c-bacf-27992fa50992 ","timestamp":"2025-04-29 18:51:03"}
+{"level":"error","message":"error deleting time slot:f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa for provider:0f0f1264-5f0e-403c-bacf-27992fa50992: Cannot read properties of undefined (reading 'length')","stack":"TypeError: Cannot read properties of undefined (reading 'length')\n    at deleteSlot (file:///home/akuma19/Desktop/BE-Projects/booking-service/controller/timeslot-controller.js:98:31)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-04-29 18:51:03"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:51:53"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:51:53"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:51:53"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:51:53"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:51:53"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:51:53"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:51:53"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:51:53"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:51:53"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:51:53"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:51:53"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:51:53"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:51:54"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:51:56"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:51:57"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:51:57"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:51:57"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:51:57"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:51:57"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:51:57"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:51:57"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:51:57"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:51:57"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:51:57"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:51:57"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:51:57"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:52:00"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:52:00"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:52:00"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:52:00"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:52:00"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:52:00"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:52:00"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:52:00"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:52:00"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:52:00"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:52:00"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:52:00"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:52:00"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:52:02"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:52:03"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:52:03"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:52:03"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:52:03"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:52:03"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:52:03"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:52:03"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:52:03"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:52:03"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:52:03"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:52:03"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:52:03"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:52:05"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:52:06"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:52:06"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:52:06"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:52:06"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:52:06"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:52:06"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:52:06"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:52:06"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:52:06"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:52:06"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:52:06"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:52:06"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:52:20"}
+{"level":"info","message":"Executed query: { text: DELETE FROM timeslot WHERE id = $1 and owner_id = $2..., params: [\"f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa\",\"0f0f1264-5f0e-403c-bacf-27992fa50992\"], duration: 109ms, rows: 0}","timestamp":"2025-04-29 18:52:20"}
+{"level":"warn","message":"fail to delete time slot f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa or access denied for provider 0f0f1264-5f0e-403c-bacf-27992fa50992 ","timestamp":"2025-04-29 18:52:20"}
+{"level":"error","message":"error deleting time slot:f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa for provider:0f0f1264-5f0e-403c-bacf-27992fa50992: Cannot read properties of undefined (reading 'length')","stack":"TypeError: Cannot read properties of undefined (reading 'length')\n    at deleteSlot (file:///home/akuma19/Desktop/BE-Projects/booking-service/controller/timeslot-controller.js:98:29)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-04-29 18:52:20"}
+{"level":"info","message":"Executed query: { text: DELETE FROM timeslot WHERE id = $1 and owner_id = $2..., params: [\"f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa\",\"0f0f1264-5f0e-403c-bacf-27992fa50992\"], duration: 5ms, rows: 0}","timestamp":"2025-04-29 18:52:23"}
+{"level":"warn","message":"fail to delete time slot f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa or access denied for provider 0f0f1264-5f0e-403c-bacf-27992fa50992 ","timestamp":"2025-04-29 18:52:23"}
+{"level":"error","message":"error deleting time slot:f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa for provider:0f0f1264-5f0e-403c-bacf-27992fa50992: Cannot read properties of undefined (reading 'length')","stack":"TypeError: Cannot read properties of undefined (reading 'length')\n    at deleteSlot (file:///home/akuma19/Desktop/BE-Projects/booking-service/controller/timeslot-controller.js:98:29)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-04-29 18:52:23"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:52:35"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:52:35"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:52:35"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:52:35"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:52:35"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:52:35"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:52:35"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:52:35"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:52:35"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:52:35"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:52:35"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:52:35"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:52:35"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:53:17"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:53:18"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:53:18"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:53:18"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:53:18"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:53:18"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:53:18"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:53:18"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:53:18"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:53:18"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:53:18"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:53:18"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:53:18"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:53:29"}
+{"level":"info","message":"Executed query: { text: DELETE FROM timeslot WHERE id = $1 and owner_id = $2..., params: [\"f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa\",\"0f0f1264-5f0e-403c-bacf-27992fa50992\"], duration: 72ms, rows: 0}","timestamp":"2025-04-29 18:53:29"}
+{"level":"warn","message":"fail to delete time slot f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa or access denied for provider 0f0f1264-5f0e-403c-bacf-27992fa50992 ","timestamp":"2025-04-29 18:53:29"}
+{"level":"error","message":"error deleting time slot:f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa for provider:0f0f1264-5f0e-403c-bacf-27992fa50992: Cannot read properties of undefined (reading 'length')","stack":"TypeError: Cannot read properties of undefined (reading 'length')\n    at deleteSlot (file:///home/akuma19/Desktop/BE-Projects/booking-service/controller/timeslot-controller.js:98:31)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-04-29 18:53:29"}
+{"level":"info","message":"Executed query: { text: DELETE FROM timeslot WHERE id = $1 and owner_id = $2..., params: [\"f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa\",\"0f0f1264-5f0e-403c-bacf-27992fa50992\"], duration: 5ms, rows: 0}","timestamp":"2025-04-29 18:53:31"}
+{"level":"warn","message":"fail to delete time slot f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa or access denied for provider 0f0f1264-5f0e-403c-bacf-27992fa50992 ","timestamp":"2025-04-29 18:53:31"}
+{"level":"error","message":"error deleting time slot:f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa for provider:0f0f1264-5f0e-403c-bacf-27992fa50992: Cannot read properties of undefined (reading 'length')","stack":"TypeError: Cannot read properties of undefined (reading 'length')\n    at deleteSlot (file:///home/akuma19/Desktop/BE-Projects/booking-service/controller/timeslot-controller.js:98:31)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-04-29 18:53:31"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 18:55:14"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 18:55:14"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 18:55:14"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:55:14"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 18:55:14"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 18:55:14"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 18:55:14"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 18:55:14"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 18:55:14"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 18:55:14"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 18:55:14"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 18:55:14"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 18:55:14"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:55:36"}
+{"level":"info","message":"Executed query: { text: DELETE FROM timeslot WHERE id = $1 and owner_id = $2..., params: [\"f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa\",\"0f0f1264-5f0e-403c-bacf-27992fa50992\"], duration: 91ms, rows: 0}","timestamp":"2025-04-29 18:55:36"}
+{"level":"warn","message":"fail to delete time slot f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa or access denied for provider 0f0f1264-5f0e-403c-bacf-27992fa50992 ","timestamp":"2025-04-29 18:55:36"}
+{"level":"info","message":"Executed query: { text: SELECT id FROM timeslot WHERE id = $1..., params: [\"f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa\"], duration: 6ms, rows: 0}","timestamp":"2025-04-29 18:55:36"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:56:56"}
+{"level":"info","message":"Executed query: { text: DELETE FROM timeslot WHERE id = $1 and owner_id = $2..., params: [\"f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa\",\"0f0f1264-5f0e-403c-bacf-27992fa50992\"], duration: 82ms, rows: 0}","timestamp":"2025-04-29 18:56:56"}
+{"level":"warn","message":"fail to delete time slot f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa or access denied for provider 0f0f1264-5f0e-403c-bacf-27992fa50992 ","timestamp":"2025-04-29 18:56:56"}
+{"level":"info","message":"Executed query: { text: SELECT id FROM timeslot WHERE id = $1..., params: [\"f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa\"], duration: 3ms, rows: 0}","timestamp":"2025-04-29 18:56:56"}
+{"level":"info","message":"Executed query: { text: DELETE FROM timeslot WHERE id = $1 and owner_id = $2..., params: [\"f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa\",\"0f0f1264-5f0e-403c-bacf-27992fa50992\"], duration: 5ms, rows: 0}","timestamp":"2025-04-29 18:57:00"}
+{"level":"warn","message":"fail to delete time slot f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa or access denied for provider 0f0f1264-5f0e-403c-bacf-27992fa50992 ","timestamp":"2025-04-29 18:57:00"}
+{"level":"info","message":"Executed query: { text: SELECT id FROM timeslot WHERE id = $1..., params: [\"f4fd1bda-e109-4cdc-b7d9-a36c1d7119fa\"], duration: 7ms, rows: 0}","timestamp":"2025-04-29 18:57:00"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:58:53"}
+{"level":"info","message":"Executed query: { text: SELECT id, day, start_time, end_time, is_reserved FROM timeslot WHERE owner_id = $1\n                ..., params: [\"0f0f1264-5f0e-403c-bacf-27992fa50992\"], duration: 60ms, rows: 2}","timestamp":"2025-04-29 18:58:53"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 18:59:34"}
+{"level":"info","message":"Executed query: { text: DELETE FROM timeslot WHERE id = $1 and owner_id = $2..., params: [\"0e2f6e1a-5424-4215-ba3b-58917fde5090\",\"0f0f1264-5f0e-403c-bacf-27992fa50992\"], duration: 92ms, rows: 1}","timestamp":"2025-04-29 18:59:34"}
+{"level":"warn","message":"fail to delete time slot 0e2f6e1a-5424-4215-ba3b-58917fde5090 or access denied for provider 0f0f1264-5f0e-403c-bacf-27992fa50992 ","timestamp":"2025-04-29 18:59:34"}
+{"level":"info","message":"Executed query: { text: SELECT id FROM timeslot WHERE id = $1..., params: [\"0e2f6e1a-5424-4215-ba3b-58917fde5090\"], duration: 8ms, rows: 0}","timestamp":"2025-04-29 18:59:34"}
+{"level":"info","message":"Executed query: { text: DELETE FROM timeslot WHERE id = $1 and owner_id = $2..., params: [\"0e2f6e1a-5424-4215-ba3b-58917fde5090\",\"0f0f1264-5f0e-403c-bacf-27992fa50992\"], duration: 3ms, rows: 0}","timestamp":"2025-04-29 18:59:37"}
+{"level":"warn","message":"fail to delete time slot 0e2f6e1a-5424-4215-ba3b-58917fde5090 or access denied for provider 0f0f1264-5f0e-403c-bacf-27992fa50992 ","timestamp":"2025-04-29 18:59:37"}
+{"level":"info","message":"Executed query: { text: SELECT id FROM timeslot WHERE id = $1..., params: [\"0e2f6e1a-5424-4215-ba3b-58917fde5090\"], duration: 5ms, rows: 0}","timestamp":"2025-04-29 18:59:37"}
+{"level":"info","message":"Executed query: { text: SELECT id, day, start_time, end_time, is_reserved FROM timeslot WHERE owner_id = $1\n                ..., params: [\"0f0f1264-5f0e-403c-bacf-27992fa50992\"], duration: 4ms, rows: 1}","timestamp":"2025-04-29 18:59:44"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 19:00:32"}
+{"level":"info","message":"Executed query: { text: DELETE FROM timeslot WHERE id = $1 and owner_id = $2..., params: [\"505be108-3c01-4edc-a253-1994c538663d\",\"0f0f1264-5f0e-403c-bacf-27992fa50992\"], duration: 79ms, rows: 1}","timestamp":"2025-04-29 19:00:32"}
+{"level":"warn","message":"fail to delete time slot 505be108-3c01-4edc-a253-1994c538663d or access denied for provider 0f0f1264-5f0e-403c-bacf-27992fa50992 ","timestamp":"2025-04-29 19:00:32"}
+{"level":"info","message":"Executed query: { text: SELECT id FROM timeslot WHERE id = $1..., params: [\"505be108-3c01-4edc-a253-1994c538663d\"], duration: 3ms, rows: 0}","timestamp":"2025-04-29 19:00:32"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 19:00:49"}
+{"level":"info","message":"Executed query: { text: SELECT id, day, start_time, end_time, is_reserved FROM timeslot WHERE owner_id = $1\n                ..., params: [\"0f0f1264-5f0e-403c-bacf-27992fa50992\"], duration: 72ms, rows: 0}","timestamp":"2025-04-29 19:00:49"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 20:17:16"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 20:17:17"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 20:17:17"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 20:17:17"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 20:17:17"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 20:17:17"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 20:17:17"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 20:17:17"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 20:17:17"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 20:17:17"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 20:17:17"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 20:17:17"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 20:17:17"}
+{"level":"info","message":"Database is configured on: bookingdb","timestamp":"2025-04-29 20:17:19"}
+{"level":"info","message":"Attempting to start server on port 4000...","timestamp":"2025-04-29 20:17:20"}
+{"level":"info","message":"Connecting to database...","timestamp":"2025-04-29 20:17:20"}
+{"level":"info","message":"Client connected from Pool (Total count: 1","timestamp":"2025-04-29 20:17:20"}
+{"level":"info","message":"Database connection pool established successfully","timestamp":"2025-04-29 20:17:20"}
+{"level":"info","message":"Initializing database schema...","timestamp":"2025-04-29 20:17:20"}
+{"level":"info","message":"initailizing: bookingdb ","timestamp":"2025-04-29 20:17:20"}
+{"level":"info","message":"successfully created user table","timestamp":"2025-04-29 20:17:20"}
+{"level":"info","message":"successfully created provider table","timestamp":"2025-04-29 20:17:20"}
+{"level":"info","message":"successfully created timeslot table","timestamp":"2025-04-29 20:17:20"}
+{"level":"info","message":"appoitment table created successfully","timestamp":"2025-04-29 20:17:20"}
+{"level":"info","message":"Connected to DB. Starting HTTP server...","timestamp":"2025-04-29 20:17:20"}
+{"level":"info","message":"Server is listening on port 4000","timestamp":"2025-04-29 20:17:20"}
+{"level":"info","message":"Received SIGINT","timestamp":"2025-04-29 20:17:24"}
