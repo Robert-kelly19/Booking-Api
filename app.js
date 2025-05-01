@@ -31,4 +31,7 @@ app.use('/auth',authRouter);
 app.use('/timeSlot', slotRouter);
 app.use("/appointment", appointmetRouter)
 
+
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+
 export default app;
