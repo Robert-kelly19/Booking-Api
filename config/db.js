@@ -1,4 +1,4 @@
-import pg from 'pg'
+import pg from "pg"
 import logger from "../utils/logger.js"
 import dotenv from "dotenv"
 
