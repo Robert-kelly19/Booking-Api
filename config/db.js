@@ -71,19 +71,22 @@ try {
       day DATE NOT NULL,
       start_time TIME NOT NULL,
       end_time TIME NOT NULL,
-      is_reserved BOOLEAN
+      is_reserved  BOOLEAN DEFAULT FALSE NOT NULL
       );
       `)
     logger.info('successfully created timeslot table')
-      
+    
+    await query(` CREATE TYPE IF NOT EXISTS appointment_status AS ENUM ('booked', 'canceled');`)
+
     await client.query(`
-         CREATE TABLE IF NOT EXISTS appointment (
-         id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-         provider_id UUID NOT NULL REFERENCES provider(id) ON DELETE CASCADE,
-         user_id UUID NOT NULL REFERENCES users(id) ON DELETE CASCADE,
-         timeslot_id UUID NOT NULL REFERENCES timeslot(id) ON DELETE CASCADE
-         );
-        `)
+      CREATE TABLE IF NOT EXISTS appointment (
+        id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+        user_id UUID NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+        timeslot_id UUID NOT NULL REFERENCES timeslot(id) ON DELETE CASCADE,
+        status appointment_status NOT NULL DEFAULT 'booked'
+      );
+    `);
+    
       logger.info('appoitment table created successfully')
 
 } catch (error) {

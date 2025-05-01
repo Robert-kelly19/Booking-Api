@@ -5,8 +5,9 @@ import morgan from 'morgan';
 
 import indexRouter from './routes/index.js';
 import usersRouter from './routes/users.js';
-import authRouter from './routes/auth.js'
-import slotRouter from './routes/timeSlot.js'
+import authRouter from './routes/auth.js';
+import slotRouter from './routes/timeSlot.js';
+import appointmetRouter from './routes/appointment.js';
 import { fileURLToPath } from 'url';
 
 import winstonLogger from 'winston/lib/winston/config/index.js';
@@ -28,5 +29,6 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/auth',authRouter);
 app.use('/timeSlot', slotRouter);
+app.use("/appointment", appointmetRouter)
 
 export default app;

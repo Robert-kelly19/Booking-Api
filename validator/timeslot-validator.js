@@ -4,7 +4,7 @@ const timeslotSchema = Joi.object({
     day: Joi.date().required(),
     startTime: Joi.string().pattern(/^([01]\d|2[0-3]):([0-5]\d)$/).required(),
     endTime: Joi.string().pattern(/^([01]\d|2[0-3]):([0-5]\d)$/).required(),
-    is_reserved: Joi.boolean()
+    is_reserved: Joi.boolean().default(false)
 })
 
 export const createtimeSlotValidator = (req, res, next) => {

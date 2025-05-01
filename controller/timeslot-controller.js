@@ -2,15 +2,14 @@ import { query } from "../config/db.js";
 import logger from '../utils/logger.js'
 
 export async function createTimeSlot(req,res,next) {
-    const {day,startTime,endTime} = req.body
+    const {day,startTime,endTime,reserved} = req.body
     const providerId = req.user.id
 
     try {
-        const insertTimeSlot =`INSERT INTO timeslot (owner_id, day,start_time, end_time) 
-                               VALUES ($1,$2,$3,$4) RETURNING *;
-                               `;
+        const insertTimeSlot = `INSERT INTO timeslot (owner_id, day, start_time, end_time, is_reserved) 
+        VALUES ($1, $2, $3, $4, COALESCE($5, FALSE)) RETURNING *;`;
 
-    const result = await query(insertTimeSlot, [providerId,day, startTime, endTime])
+    const result = await query(insertTimeSlot, [providerId,day, startTime, endTime,reserved])
     const newTimeSlot = result.rows[0]
     logger.info(`successfully created timeslot ${newTimeSlot.id} by ${providerId}`)
     return res.status(201).json(newTimeSlot)

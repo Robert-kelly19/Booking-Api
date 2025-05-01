@@ -9,7 +9,7 @@ const Auth = (req, res, next) => {
         logger.warn(`No auth middlewares provided`)
         return res.status(401).json({message: 'Authorization denied, no token provided'})
     } try {
-        const decoded = jwt.decode(token,process.env.JTW_SECRET)
+        const decoded = jwt.verify(token,process.env.JWT_SECRET)
         req.user = decoded.provider
         logger.debug(`Authorization approved for ${req.user.id}`)
         next()

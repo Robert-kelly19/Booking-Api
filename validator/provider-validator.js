@@ -23,7 +23,7 @@ const LoginSchema = Joi.object({
 })
 
 export const providerLoginvalidator = (req,res,next) => {
-    const {error} = LoginSchema.validate(res.body);
+    const {error} = LoginSchema.validate(req.body);
     if(error){
         return res.status(400).json({mesage:error.details[0].message})
     }
