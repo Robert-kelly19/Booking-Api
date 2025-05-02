@@ -7,7 +7,7 @@ import logger from '../utils/logger.js';
 import { connectToDb, initialzeDbSchema } from "../config/db.js";
 
 const debug = deb('booking-service:server');
-const port = normalizePort(process.env.PORT || '4000');
+const port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
 
 
