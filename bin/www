@@ -5,16 +5,21 @@ import deb from 'debug';
 import http from 'http';
 import logger from '../utils/logger.js';
 import { connectToDb, initialzeDbSchema } from "../config/db.js";
+import { Server as SocketIO } from 'socket.io';
 
 const debug = deb('booking-service:server');
+
+// Normalize port and set it
 const port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
 
-
+// Create HTTP server
 const server = http.createServer(app);
 
+// Create placeholder for Socket.IO
+let io;
 
-
+// Normalize port helper
 function normalizePort(val) {
   const port = parseInt(val, 10);
   if (isNaN(port)) return val;
@@ -22,7 +27,7 @@ function normalizePort(val) {
   return false;
 }
 
-
+// Graceful shutdown
 const signals = { SIGHUP: 1, SIGINT: 2, SIGTERM: 15 };
 let shuttingDown = false;
 
@@ -50,7 +55,7 @@ Object.keys(signals).forEach((signal) => {
   process.on(signal, () => shutDown(signal, signals[signal]));
 });
 
-
+// Server error handler
 function onError(error) {
   if (error.syscall !== 'listen') throw error;
 
@@ -67,7 +72,7 @@ function onError(error) {
   }
 }
 
-
+// Listening handler
 function onListening() {
   const addr = server.address();
   const bind = typeof addr === 'string' ? 'pipe ' + addr : 'port ' + addr.port;
@@ -75,7 +80,7 @@ function onListening() {
   logger.info(`Server is listening on ${bind}`);
 }
 
-
+// Start the app
 const startServer = async () => {
   try {
     logger.info(`Starting server on port ${port}...`);
@@ -86,12 +91,18 @@ const startServer = async () => {
     logger.info('Initializing DB schema...');
     await initialzeDbSchema();
 
-    logger.info('Connected to DB. Launching HTTP server...');
+    // Start server
     server.listen(port);
     server.on('error', onError);
     server.on('listening', onListening);
 
-    
+    // Initialize Socket.IO after server is listening
+    io = new SocketIO(server, {
+      cors: {
+        origin: '*', // Adjust as needed
+      }
+    });
+
     io.on('connection', (socket) => {
       logger.info(`Socket connected: ${socket.id}`);
     });
