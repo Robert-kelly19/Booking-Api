@@ -6,9 +6,9 @@ dotenv.config();
 
 const {Pool} = pg
 
-const {DB_USER,DB_PASSWORD,DB_HOST,DB_NAME,DB_PORT, NODE_ENV, TEST_DB_NAME, PRODUCTION_DB_NAME} = process.env
+const {DB_USER,DB_PASSWORD,DB_HOST,DB_NAME,DB_PORT, NODE_ENV} = process.env
 
-if(!DB_USER || !DB_PASSWORD || !DB_HOST || !DB_NAME || !DB_PORT || !NODE_ENV || !TEST_DB_NAME || !PRODUCTION_DB_NAME) {
+if(!DB_USER || !DB_PASSWORD || !DB_HOST || !DB_NAME || !DB_PORT || !NODE_ENV) {
     logger.error("missing database enviroment variables, check your .env file")
     process.exit(1)
 }
