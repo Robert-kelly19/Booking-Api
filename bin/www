@@ -127,17 +127,23 @@ function onListening() {
 
 const startServer = async () => {
   try {
-    logger.info(`Attempting to Start server on port ${port}`)
-    await connectToDb()
-    await initialzeDbSchema()
-    logger.info(`Starting server on port ${port}`)
+    logger.info(`Starting server on port ${port}...`);
     server.listen(port);
     server.on('error', onError);
     server.on('listening', onListening);
+    logger.info('Connecting to DB...');
+    await connectToDb();
+
+    logger.info('Initializing DB schema...');
+    await initialzeDbSchema();
+
+    logger.info('DB connected and schema initialized.');
+    
   } catch (error) {
-    logger.error('Failed during server startup process: ', error)
-    process.exit(1)
+    logger.error('Failed during server startup process: ', error);
+    process.exit(1);
   }
-}
+};
+
 
 startServer()
