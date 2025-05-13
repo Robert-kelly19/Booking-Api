@@ -1,21 +1,19 @@
 #!/usr/bin/env node
 
-/**
- * Module dependencies.
- */
-
-import app  from '../app.js';
-import deb  from 'debug';
+import app from '../app.js';
+import deb from 'debug';
 import http from 'http';
 import logger from '../utils/logger.js';
-import {connectToDb, initialzeDbSchema} from "../config/db.js"
+import { connectToDb, initialzeDbSchema } from "../config/db.js";
+import { Server as SocketIO } from 'socket.io';
 
+const debug = deb('booking-service:server');
 
 /**
  * Get port from environment and store in Express.
  */
-const debug = deb('booking-service:server')
-const port = normalizePort(process.env.PORT || '3000');
+
+let port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
 
 /**
@@ -24,9 +22,9 @@ app.set('port', port);
 
 const server = http.createServer(app);
 
-/**
- * Listen on provided port, on all network interfaces.
- */
+// /**
+//  * Listen on provided port, on all network interfaces.
+//  */
 
 server.listen(port);
 server.on('error', onError);
@@ -56,33 +54,35 @@ const signals = {
   'SIGHUP': 1,
   'SIGINT': 2,
   'SIGTERM': 15
-}
+};
 
-let shuttingDown = false
+let shuttingDown = false;
 
-const shutDown = (signal, values) => {
-  if(shuttingDown){
-    logger.info(`shutting down in progress , Recieved ${signal} again`)
-    return
+const shutdown = (signal, value) => {
+  if (shuttingDown) {
+    logger.info(`Already shutting down. Received ${signal} again`);
+    return;
   }
   shuttingDown = true
-  logger.info(`Recieved ${signal}, shutting down gracefuuly`)
+  logger.info(`Received ${signal}. Shutting down gracefully`)
   server.close((err) => {
-    if(err) {
-      logger.error('error while closing server', err)
+    if (err) {
+      logger.error("Error closing server", err)
       process.exit(1)
     } else {
-      logger.info ('server closed, exiting the process')
+      logger.info('server closed. Exiting the process.')
       process.exit(0)
     }
   })
 }
-object.keys(signals).forEach((signal) => {
+
+Object.keys(signals).forEach((signal) => {
   process.on(signal, () => {
-    logger.info(`recieved ${signal}`)
-    shutDown(signal, signals[signal])
+    logger.info(`Recieved ${signal}`)
+    shutdown(signal, signals[signal])
   })
-});
+})
+
 /**
  * Event listener for HTTP server "error" event.
  */
@@ -99,12 +99,14 @@ function onError(error) {
   // handle specific listen errors with friendly messages
   switch (error.code) {
     case 'EACCES':
-      console.error(bind + ' requires elevated privileges');
+      logger.error(bind + ' requires elevated privileges');
       process.exit(1);
       break;
     case 'EADDRINUSE':
-      console.error(bind + ' is already in use');
-      process.exit(1);
+      logger.error(bind + ' is already in use');
+      logger.info("trying to make it run on the next available port")
+      startServer()
+      // process.exit(1);
       break;
     default:
       throw error;
@@ -123,19 +125,20 @@ function onListening() {
   debug('Listening on ' + bind);
 }
 
-const startServer = async () => {
-  try {
-    logger.info(`Attempting to Start server on port ${port}`)
-    await connectToDb()
-    await initialzeDbSchema()
-    logger.info(`Starting server on port ${port}`)
-    server.listen(port);
-    server.on('error', onError);
-    server.on('listening', onListening);
-  } catch (error) {
-    logger.error('Failed during server startup process: ', error)
-    process.exit(1)
-  }
-}
 
-startServer()
+// const startServer = async () => {
+//   try {
+//     logger.info(`Attempting to Start server on port ${port}`)
+//     await connectToDb()
+//     await initialzeDbSchema()
+//     logger.info(`Starting server on port ${port}`)
+//     server.listen(port);
+//     server.on('error', onError);
+//     server.on('listening', onListening);
+//   } catch (error) {
+//     logger.error('Failed during server startup process: ', error)
+//     process.exit(1)
+//   }
+// }
+
+// startServer()
